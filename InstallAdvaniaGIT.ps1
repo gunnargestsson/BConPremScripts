@@ -1,0 +1,2 @@
+﻿Invoke-WebRequest -Uri "https://raw.githubusercontent.com/gunnargestsson/AdvaniaGIT/master/Scripts/Install-AdvaniaGIT.ps1" -OutFile "$($env:TEMP)\\Install-AdvaniaGIT.ps1" -ErrorAction Stop
+& "$($env:TEMP)\\Install-AdvaniaGIT.ps1"
